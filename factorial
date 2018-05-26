@@ -1,0 +1,8 @@
+def (fact(x):
+if(x == 0):
+   return ("zero")
+else
+  return = x * fact(x-1)
+x = input()
+print(fact(x))
+ 
