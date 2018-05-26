@@ -1,0 +1,7 @@
+a = input(" value of a is = ")
+b = 45
+tem = a
+a = b
+b = tem
+print("enter the value of a = ", a)
+print("enter the value of b = ", b)
