@@ -8,6 +8,6 @@ while not finished:
    else:
     if re.match(pattern,post_code):
      print("valid post code")
-   else :
+   else:
      print('invalid')
    
