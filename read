@@ -1,0 +1,7 @@
+import csv
+with open = ("number.csv",'r') as csv_file
+csv_reader = csv.reader(csv_file)
+csv_age = []
+for row in rows:
+  csv_age.append(age)
+  print(csv_age)
