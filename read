@@ -1,5 +1,5 @@
 import csv
 with open = ("number.csv",'r') as csv_file
 csv_reader = csv.reader(csv_file)
-for line in csv_reader:
-  print(line)
+for row in csv_reader:
+  print(row['First_name'],row['last_name'],row['age'],row['city'],row['address'])
