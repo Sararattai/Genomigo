@@ -3,6 +3,5 @@ with open = ("number.csv",'r') as csv_file
 csv_reader = csv.reader(csv_file)
 csv_age = []
 for row in csv_reader:
-  #print only the age in csv file
-  csv_age.append(row[3])
+    csv_age.append(row[3])
   print(row[3])
